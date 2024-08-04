@@ -1,0 +1,120 @@
+html, body, #app, #app>div {
+    height: 100%
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.header {
+    display: flex;
+    justify-content: right;
+    background: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    padding: 5px 5px;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_button {
+    display: flex;
+    justify-content: center;
+    width: 7%;
+    color:black;
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 1vw;
+}
+
+.header_button:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+body {
+    background-image: url("./images/fish-in-fishing-lake.jpg");
+    background-size : cover;
+    background-position: center;
+}
+
+.square {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.bottom-part {
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.square:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+    max-width: 100% !important;
+}
+
+.second_navbar {
+    display: flex;
+    height: 35px !important;
+    font-size: 1vw;
+    background-color: rgba(179, 165, 165, 0.8);
+}
+
+.Dropdown {
+    background-color: rgba(179, 165, 165, 0.8);
+}
+
+.navbar_item:hover {
+    background-color: rgba(231, 224, 224, 0.8);
+}
+
+.top_of {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: red;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.next_materials {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.square_title {
+    font-size: 2vw;
+}
+
+.square_body .my_button{
+    font-size: 1vw;
+}
+
+.navbar_item {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.company_logo {
+    display: flex;
+    justify-content: left;
+    font-family: Myriad Pro;
+}
+
+.child {
+    display: inline-block;
+}
+
+.parent {
+    max-width: 100%;
+}

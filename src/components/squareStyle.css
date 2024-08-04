@@ -1,0 +1,11 @@
+.square_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next_videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
